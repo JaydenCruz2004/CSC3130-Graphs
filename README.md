@@ -45,13 +45,6 @@ Provide time and space complexity using **Big-O notation** for the algorithms yo
 
 ---
 
-## 📁 Deliverables
-
-- ✅ GitHub repository with IntelliJ IDEA project files – only link, **no zipped projects**
-- ✅ A PDF file (`GraphAssignment.pdf`) containing answers to text problems (1, 2, 3, and 7)
-- ✅ Code files for Problems 4–6 in `/src/` folder of the repo
-
----
 
 ## ⚠️ Grading Policy
 
@@ -72,9 +65,4 @@ Provide time and space complexity using **Big-O notation** for the algorithms yo
 **Author:** Jayden Cruz  
 **Course:** CSC 3130: Intro to Algorithms  
 **University:** Belmont University
-## 📎 Notes
-
-- Use `GraphAssignment.pdf` for text-based answers.
-- Be sure your GitHub repo is public or accessible.
-- Double-check upload format and links before the deadline!
 
