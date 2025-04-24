@@ -36,6 +36,12 @@ public class EveryPath {
         path.remove(path.size() - 1);
         visited.remove(current);
     }
+    private static void addEdge(Map<Character, List<Edge>> graph, char from, char to, int weight) {
+        if (!graph.containsKey(from)) {
+            graph.put(from, new ArrayList<Edge>());
+        }
+        graph.get(from).add(new Edge(to, weight));
+    }
 
     public static void main(String[] args) {
         Map<Character, List<Edge>> graph = new HashMap<>();
@@ -55,10 +61,5 @@ public class EveryPath {
 
     }
 
-    private static void addEdge(Map<Character, List<Edge>> graph, char from, char to, int weight) {
-        if (!graph.containsKey(from)) {
-            graph.put(from, new ArrayList<Edge>());
-        }
-        graph.get(from).add(new Edge(to, weight));
-    }
+
 }
